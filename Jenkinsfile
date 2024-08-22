@@ -4,7 +4,7 @@ pipelne {
     stages {
              stage('Master') {
                      steps {
-                           sh 'eco "This is master branch"'
+                           sh 'eco "This is master branch modified"'
                      }
             }
               stage('sprint1')  {
